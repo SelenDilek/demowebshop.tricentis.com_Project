@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNg]">
+  <test thread-count="5" name="Firefox Test(failed)">
+    <parameter name="confirm" value="Selen123.!"/>
+    <parameter name="firstname" value="Selen"/>
+    <parameter name="password" value="Selen123.!"/>
+    <parameter name="mail" value="yildirimselen17@gmail.com"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="lastname" value="Dilek"/>
+    <classes>
+      <class name="SeleniumTest.WebShop">
+        <methods>
+          <include name="test11"/>
+        </methods>
+      </class> <!-- SeleniumTest.WebShop -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [TestNg] -->

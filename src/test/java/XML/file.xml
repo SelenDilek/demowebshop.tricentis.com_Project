@@ -1,0 +1,47 @@
+<suite name = "TestNg" therad-count ="3" test="parallel">
+    <tests>
+        <test name = "Chrome Browser Test">
+            <parameter name = "browser" value = "chrome">
+                <parameter name = "firstname" value = "Selen"/>
+                <parameter name = "lastname" value = "Dilek"/>
+                <parameter name = "mail" value = "yildirimselen17@gmail.com"/>
+                <parameter name = "password" value = "Selen123.!"/>
+                <parameter name = "confirm" value = "Selen123.!"/>
+
+
+            </parameter>
+            <classes>
+
+                <class name = "SeleniumTest.WebShop">
+
+
+                </class>
+            </classes>
+
+
+        </test>
+
+        <test name = "Firefox Test">
+
+        <parameter name = "browser" value = "firefox">
+            <parameter name = "firstname" value = "Selen"/>
+            <parameter name = "lastname" value = "Dilek"/>
+            <parameter name = "mail" value = "yildirimselen17@gmail.com"/>
+            <parameter name = "password" value = "Selen123.!"/>
+            <parameter name = "confirm" value = "Selen123.!"/>
+
+
+        </parameter>
+        <classes>
+
+            <class name = "SeleniumTest.WebShop">
+
+            </class>
+        </classes>
+
+        </test>
+
+
+    </tests>
+
+</suite>
